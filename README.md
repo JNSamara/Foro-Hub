@@ -8,7 +8,6 @@
 - [Cómo Usar la API](#cómo-usar-la-api)
 - [Funcionalidades del Sistema](#funcionalidades-del-sistema)
 - [URL de Funciones](#url-de-funciones)
-- [Redes Sociales](#redes-sociales)
 
 ## Objetivos
 Foro Hub es una aplicación que permite la gestión de foros con funcionalidades de CRUD (Crear, Leer, Actualizar, Eliminar) para varias entidades. Los objetivos principales de la aplicación son:
@@ -42,7 +41,8 @@ Foro Hub es una aplicación que permite la gestión de foros con funcionalidades
 
 ## Cómo Usar la API
 1. Modificar el archivo `application.properties` reemplazando las variables `DB_NAME`, `DB_USER`, `DB_PASSWORD` por el nombre de una base de datos creada, el nombre de usuario y contraseña respectivamente o declarando las variables de entorno de su sistema operativo.
-2. Ejecutar el archivo `ApiApplication.java`.
+2. Crear previamente la base de datos con nombre 'foro-hub'
+3. Ejecutar el archivo `ApiApplication.java`.
 
 ## Funcionalidades del Sistema
 -  LISTAR PERFIL, TOPICO, RESPUESTA
